@@ -22,6 +22,7 @@ namespace PrjCliente_conexao
 
             try
             {
+              
                 conn.Open();
             }
             catch (Exception e)

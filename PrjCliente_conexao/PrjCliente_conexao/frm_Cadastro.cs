@@ -27,31 +27,42 @@ namespace PrjCliente_conexao
 
         private void carregar_grid()
         {
-            _query = "Select * from clientes";
-
-            OleDbCommand _dataCommand = new OleDbCommand(_query, conn);
-
-            dr_clientes = _dataCommand.ExecuteReader();
-
-
-            if (dr_clientes.HasRows == true)
+            try
             {
-                bs_clientes.DataSource = dr_clientes;
-                dgv_clientes.DataSource = bs_clientes;
-                igualar_text();
 
+                _query = "Select * from tb_cliente";
+
+                OleDbCommand _dataCommand = new OleDbCommand(_query, conn);
+
+                dr_clientes = _dataCommand.ExecuteReader();
+
+
+                if (dr_clientes.HasRows == true)
+                {
+                    bs_clientes.DataSource = dr_clientes;
+                    dgv_clientes.DataSource = bs_clientes;
+                    igualar_text();
+
+                }
+                else
+                {
+                    MessageBox.Show("Não temos clientes cadastrados !!!!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
             }
-            else
-            {
-                MessageBox.Show("Não temos clientes cadastrados !!!!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+            catch (Exception e) {
+
+                MessageBox.Show("Erro");
             }
         }
+
+        
 
             private void igualar_text()
             {
                 lblMatricula.DataBindings.Add("Text", bs_clientes, "Matricula");
                 lblMatricula.DataBindings.Clear();
-                txbNome.DataBindings.Add("Text", bs_clientes, "Endereco");
+                txbNome.DataBindings.Add("Text", bs_clientes, "Nome");
                 txbNome.DataBindings.Clear();
                 txbEnder.DataBindings.Add("Text", bs_clientes, "Endereco");
                 txbEnder.DataBindings.Clear();
@@ -82,7 +93,7 @@ namespace PrjCliente_conexao
 
         private void txbPesquisar_TextChanged(object sender, EventArgs e)
         {
-            _query = "Select * from Clientes where nome like ' " +txbPesquisar.Text + "%'";
+            _query = "Select * from tb_cliente where nome like ' " +txbPesquisar.Text + "%'";
             OleDbCommand _dataCommand = new OleDbCommand(_query, conn);
             dr_clientes = _dataCommand.ExecuteReader();
 
@@ -96,7 +107,7 @@ namespace PrjCliente_conexao
                 txbPesquisar.Text = "";
             }
         }
-
+    
        
 
 

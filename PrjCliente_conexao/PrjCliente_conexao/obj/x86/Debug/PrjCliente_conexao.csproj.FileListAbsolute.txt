@@ -18,3 +18,13 @@ G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjClient
 G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.Form1.resources
 G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.Properties.Resources.resources
 G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.csproj.GenerateResource.Cache
+G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\PrjCliente_conexao\bin\Debug\PrjCliente_conexao.exe.config
+G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.exe
+G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.pdb
+G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\PrjCliente_conexao\bin\Debug\BD_Cliente.accdb
+G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\PrjCliente_conexao\bin\Debug\PrjCliente_conexao.exe
+G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\PrjCliente_conexao\bin\Debug\PrjCliente_conexao.pdb
+G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.frm_Cadastro.resources
+G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.Form1.resources
+G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.Properties.Resources.resources
+G:\gitrepositorios\PrjCliente_conexao\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.csproj.GenerateResource.Cache

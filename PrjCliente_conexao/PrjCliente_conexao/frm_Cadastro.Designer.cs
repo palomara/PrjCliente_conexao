@@ -51,11 +51,6 @@
             this.lblPesquisaNome = new System.Windows.Forms.Label();
             this.txbPesquisar = new System.Windows.Forms.TextBox();
             this.dgv_clientes = new System.Windows.Forms.DataGridView();
-            this.columnMat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnNome = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnNasc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnEnder = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnNum = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_clientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -272,43 +267,12 @@
             // dgv_clientes
             // 
             this.dgv_clientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_clientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.columnMat,
-            this.columnNome,
-            this.columnNasc,
-            this.columnEnder,
-            this.columnNum});
             this.dgv_clientes.Location = new System.Drawing.Point(26, 229);
             this.dgv_clientes.Name = "dgv_clientes";
             this.dgv_clientes.Size = new System.Drawing.Size(543, 150);
             this.dgv_clientes.TabIndex = 28;
             this.dgv_clientes.Click += new System.EventHandler(this.dgv_clientes_Click);
             this.dgv_clientes.KeyUp += new System.Windows.Forms.KeyEventHandler(this.dgv_clientes_KeyUp);
-            // 
-            // columnMat
-            // 
-            this.columnMat.HeaderText = "Matricula";
-            this.columnMat.Name = "columnMat";
-            // 
-            // columnNome
-            // 
-            this.columnNome.HeaderText = "Nome";
-            this.columnNome.Name = "columnNome";
-            // 
-            // columnNasc
-            // 
-            this.columnNasc.HeaderText = "Nasc";
-            this.columnNasc.Name = "columnNasc";
-            // 
-            // columnEnder
-            // 
-            this.columnEnder.HeaderText = "Endereco";
-            this.columnEnder.Name = "columnEnder";
-            // 
-            // columnNum
-            // 
-            this.columnNum.HeaderText = "Numero";
-            this.columnNum.Name = "columnNum";
             // 
             // frm_Cadastro
             // 
@@ -372,10 +336,5 @@
         private System.Windows.Forms.Label lblPesquisaNome;
         private System.Windows.Forms.TextBox txbPesquisar;
         private System.Windows.Forms.DataGridView dgv_clientes;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnMat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnNome;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnNasc;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnEnder;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnNum;
     }
 }
